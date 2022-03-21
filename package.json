@@ -2,7 +2,7 @@
   "name": "todolist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://phawit-net.github.io",
+  "homepage": "https://phawit-net.github.io/recap",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.8.1",
@@ -43,7 +43,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src --fix",
-    "predeploy": "yarn build",
+    "predeploy": "npm run build",
     "deploy": "gh-page -d build"
   },
   "eslintConfig": {
